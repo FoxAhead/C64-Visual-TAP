@@ -81,7 +81,7 @@ end;
 
 procedure TFormAbout.Label3Click(Sender: TObject);
 begin
-  ShellExecute(Application.Handle, 'open', 'https://github.com/FoxAhead/Civilization-II-64-bit-Editbox-Patcher', nil, nil, SW_SHOW);
+  ShellExecute(Application.Handle, 'open', 'https://github.com/FoxAhead/C64-Visual-TAP', nil, nil, SW_SHOW);
 end;
 
 procedure TFormAbout.FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
